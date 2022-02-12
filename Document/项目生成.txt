@@ -1,0 +1,6 @@
+1、dos下创建项目存放目录(创建build目录)
+	md build && cd build
+	
+2、dos下cmake生成项目（VS2019默认生成win64版本）
+	[win64] cmake ../ -G "Visual Studio 16 2019"
+	[win32] cmake ../ -G "Visual Studio 16 2019" -A Win32

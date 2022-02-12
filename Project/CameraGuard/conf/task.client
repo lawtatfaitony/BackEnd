@@ -1,0 +1,7 @@
+Task.Proxy=Task:tcp -p 10012:udp -p 10012
+Ice.Default.Host=localhost
+Ice.Override.ConnectTimeout=1000
+Ice.Default.InvocationTimeout=100000
+Ice.RetryIntervals=0 100 500
+Ice.Trace.Retry=0
+Ice.MessageSizeMax=204800

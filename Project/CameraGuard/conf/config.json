@@ -1,0 +1,23 @@
+{
+    "database": {
+        "ip": "127.0.0.1",
+        "base_frontend": "camera_guard_business",
+        "base_history": "camera_guard_history",
+        "user": "bsX17n4dQ9s=",
+        "password": "bsX17n4dQ9s=",
+        "pool_count": 30
+    },
+    "http_server": {
+        "host": "127.0.0.1",
+        "port": 10009,
+        "root": "."
+    },
+    "storage_server": {
+        "host": "127.0.0.1",
+        "port": 10011
+    },
+    "welcome_patten": {
+        "patten": "{name}ฤ๚บร"
+    }
+
+}
